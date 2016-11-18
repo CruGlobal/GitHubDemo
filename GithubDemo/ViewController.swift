@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var helloWorldLabel: UILabel!
+    @IBOutlet weak var goBlueLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,8 @@ class ViewController: UIViewController {
         self.view.backgroundColor = .blue
         self.helloWorldLabel.textColor = .yellow
         self.helloWorldLabel.text = "Hello World"
+        
+        self.goBlueLabel.textColor = .yellow
     }
     
     override func didReceiveMemoryWarning() {
