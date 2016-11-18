@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var helloWorldLabel: UILabel!
     @IBOutlet weak var goBlueLabel: UILabel!
+    @IBOutlet weak var nextButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,10 @@ class ViewController: UIViewController {
         self.helloWorldLabel.text = "Hello World"
         
         self.goBlueLabel.textColor = .yellow
+    }
+    
+    @IBAction func nextButtonWasPressed(_ sender: AnyObject) {
+        self.nextButton.backgroundColor = self.nextButton.backgroundColor == .green ? .clear : .green
     }
     
     override func didReceiveMemoryWarning() {
