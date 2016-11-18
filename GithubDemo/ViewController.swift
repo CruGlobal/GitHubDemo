@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         
         self.view.backgroundColor = .blue
         self.helloWorldLabel.textColor = .yellow
+        self.helloWorldLabel.text = "Hello World"
     }
     
     override func didReceiveMemoryWarning() {
