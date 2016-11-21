@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated);
         
         self.view.backgroundColor = .blue
-        self.helloWorldLabel.textColor = .yellow
+        self.helloWorldLabel.textColor = .white
         self.helloWorldLabel.text = "Hello World"
     }
     
